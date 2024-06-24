@@ -1,0 +1,44 @@
+body {
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    scroll-behavior: smooth;
+}
+.navbar {
+    margin-bottom: 50px;
+}
+.hero-section {
+    background: #f8f9fa;
+    padding:100px 100px 100px 100px;
+    text-align: center;
+}.her-container{
+    background-color: #fff;
+}
+.services-section {
+    padding: 50px 0;
+}
+.testimonials-section {
+    background: #f8f9fa;
+    padding: 50px 0;
+}
+.cta-section {
+    background: #007bff;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+.cta-section a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+#hero{
+    background-image: url("../img/hero.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height:500px;
+    padding: auto 1rem;
+    }
+    #ad{
+        margin: 1rem auto;
+    }
