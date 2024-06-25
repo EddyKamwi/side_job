@@ -43,7 +43,7 @@ body {
 #ad {
   margin: 1rem auto;
 }
-#card{
+#card,#card1,#card2{
     height: 200px;
     color: #000;
 }
