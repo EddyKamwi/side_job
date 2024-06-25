@@ -14,21 +14,24 @@ body {
 .her-container {
   background-color: #fff;
 }
+.bg-p-green{
+    background-color: #012c0b;
+}
 .services-section {
   padding: 50px 0;
 }
 .testimonials-section {
+    background-color: #012c0b;
   color: #f8f9fa;
   padding: 50px 0;
 }
 .cta-section {
-  background: #007bff;
-  color: #fff;
+  background-color: #012c0b;
   padding: 50px 0;
   text-align: center;
+  color: #fff;
 }
 .cta-section a {
-  color: #fff;
   font-size: 20px;
   font-weight: bold;
 }
@@ -43,10 +46,14 @@ body {
 #ad {
   margin: 1rem auto;
 }
-#card,#card1,#card2{
-    height: 200px;
-    color: #000;
+#card *,
+#card1 *,
+#card2 *{
+  color: #fff;
+  background-color: #012c0b;
+  padding: 0;
 }
+
 main {
   grid-column: 1/2;
   grid-row: 2/3;
@@ -55,6 +62,14 @@ main {
   grid-column: 2/3;
   grid-row: 2/3;
 }
+.btn-color{
+    background-color: #003771;
+    color: #fff;
+}
+.btn-color:hover{
+    background-color: #034082;
+    color: #fff;
+}
 .top-add {
   padding-top: 56px;
   grid-column: 1/3;
@@ -62,18 +77,18 @@ main {
   margin: 1rem auto;
 }
 .bottom-add {
-    padding-top: 56px;
-    grid-column: 1/3;
-    grid-row: 3/4;
-    margin: 0 auto;
-  }
+  padding-top: 56px;
+  grid-column: 1/3;
+  grid-row: 3/4;
+  margin: 0 auto;
+}
 .hero-title {
   background-color: #000;
   opacity: 0.7;
   color: #fff;
   border-radius: 10px;
 }
-footer{
-    grid-row: 10/11;
-    grid-column: 1/3;
+footer {
+  grid-row: 10/11;
+  grid-column: 1/3;
 }
